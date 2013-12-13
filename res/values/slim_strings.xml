@@ -105,9 +105,6 @@
     <string name="pref_camera_skinToneEnhancement_entry_enable">Enable</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Disable</string>
 
-    <!-- Settings screen, setting title text for ZSL-->
-    <string name="pref_camera_zsl_title">ZSL</string>
-
     <string name="pref_camera_skinToneEnhancement_value_enable" translatable="false">enable</string>
     <string name="pref_camera_skinToneEnhancement_value_disable" translatable="false">disable</string>
 
@@ -268,6 +265,10 @@
 
     <!-- Default Anti Banding setting. -->
     <string name="pref_camera_antibanding_default" translatable="false">auto</string>
+
+        <!-- Default color effect setting. -->
+    <string name="pref_coloreffect_default" translatable="false">none</string>
+
 
     <!-- Settings screen, Anti Banding entries -->
     <string name="pref_camera_antibanding_entry_0">Off</string>
@@ -537,15 +538,12 @@
     <string name="pref_jpegquality_title">Picture quality</string>
 
     <!-- Settings screen, Picture quality dialog radio button choices -->
-    <string name="pref_camera_jpegquality_entry_superfine">Super fine</string>
-    <string name="pref_camera_jpegquality_entry_fine">Fine</string>
-    <string name="pref_camera_jpegquality_entry_normal">Normal</string>
-    <string name="pref_camera_jpegquality_entry_0">55%</string>
-    <string name="pref_camera_jpegquality_entry_1">65%</string>
-    <string name="pref_camera_jpegquality_entry_2">75%</string>
-    <string name="pref_camera_jpegquality_entry_3">85%</string>
-    <string name="pref_camera_jpegquality_entry_4">95%</string>
-    <string name="pref_camera_jpegquality_entry_5">100%</string>
+    <string name="pref_jpegquality_entry_0">55%</string>
+    <string name="pref_jpegquality_entry_1">65%</string>
+    <string name="pref_jpegquality_entry_2">75%</string>
+    <string name="pref_jpegquality_entry_3">85%</string>
+    <string name="pref_jpegquality_entry_4">95%</string>
+    <string name="pref_jpegquality_entry_5">100%</string>
 
     <!-- Default auto histogram setting. Do not translate. -->
     <string name="pref_camera_histogram_default" translatable="false">disable</string>
