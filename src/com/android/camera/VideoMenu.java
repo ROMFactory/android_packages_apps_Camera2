@@ -68,6 +68,14 @@ public class VideoMenu extends PieController
         if (group.findPreference(CameraSettings.KEY_SMART_CAPTURE_VIDEO) != null) {
             item = makeSwitchItem(CameraSettings.KEY_SMART_CAPTURE_VIDEO, true);
             item.setLabel(res.getString(R.string.pref_smart_capture_label).toUpperCase(locale));
+           mRenderer.addItem(item);
+        // the order is from left to right in the menu
+        }
+
+        // exposure compensation
+        if (group.findPreference(CameraSettings.KEY_EXPOSURE) != null) {
+            item = makeItem(CameraSettings.KEY_EXPOSURE);
+            item.setLabel(res.getString(R.string.pref_exposure_label));
             mRenderer.addItem(item);
         }
         // more options
